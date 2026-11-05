@@ -1,0 +1,21 @@
+name: workout_parser
+description: >-
+  Turns a workout routine written as plain text (a note, a chat message, an AI
+  reply) into days, exercises, sets, reps, holds, rest, weight, tempo and
+  supersets, and matches each name against 884 known exercises.
+version: 0.1.0
+repository: https://github.com/mofixiu/workout_parser
+issue_tracker: https://github.com/mofixiu/workout_parser/issues
+topics:
+  - fitness
+  - workout
+  - parser
+  - text
+  - health
+
+environment:
+  sdk: ^3.5.0
+
+dev_dependencies:
+  lints: ^5.0.0
+  test: ^1.25.0
